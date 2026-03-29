@@ -1,7 +1,6 @@
 package com.facens.app_biblioteca_api.model;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -31,7 +30,7 @@ public class Livro {
     @Builder.Default
     private Boolean emprestado = false;
 
-    private  LocalDate
+    private  LocalDate dataEmprestimo;
 
     
 }
